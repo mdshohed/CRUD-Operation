@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.crud.controller.TableController">
+   <children>
+      <Label text="Database Data " textFill="#179ac6">
+         <font>
+            <Font size="31.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="15.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <TableView maxWidth="600.0" prefHeight="384.0" prefWidth="600.0">
+         <columns>
+            <TableColumn prefWidth="130.0" text="First Name" />
+            <TableColumn prefWidth="91.0" text="Last Name" />
+            <TableColumn prefWidth="95.0" text="Email " />
+            <TableColumn prefWidth="105.0" text="Password" />
+            <TableColumn prefWidth="88.0" text="Edit" />
+            <TableColumn prefWidth="90.0" text="Delete" />
+         </columns>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" />
+         </VBox.margin>
+      </TableView>
+   </children>
+</VBox>
